@@ -86,8 +86,13 @@ function consumoMedio(km, litros) {
     return (km/litros).toFixed(2)
 }
 
+
 let quilometragem = Number(prompt('Quantos quilômetros você rodou? '))
 let litroCombustivel = Number(prompt('Quantos litros abastaceu? ')) 
+
+/* let consumoMedio = (km, litros) =>{
+    return (km/litros).toFixed(2)
+} */
 
 document.write('O consumo médio foi de: ', consumoMedio(quilometragem, litroCombustivel))
 
