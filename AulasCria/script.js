@@ -53,7 +53,7 @@ document.write('A média do aluno é: ', calcularMedia()) */
 
 
 /* OPERAÇÕES MATEMÁTICAS */
-
+/* 
 let numero1 = Number(prompt('Digite o 1ª número '))
 let numero2 = Number(prompt('Digite o 2ª número '))
 
@@ -76,4 +76,28 @@ function dividir() {
 somar()
 subtrair()
 mult()
-dividir()
+dividir() */
+
+/* Estruturas Condicionais IF/ELSE  */
+
+/* let numero = 2
+if (numero < 3) { 
+    document.write('O número é menor ou igual que 3...' + '<br>')
+    if (numero % 2 === 0) {
+        document.write('O número é par...')
+    }
+} else {
+    document.writeln('O número é menor que 3' + '<br>')
+} */
+
+/* Faça um algoritmo para fazer o calculo IMC e que mostre em
+qual faixa o usuário está alocado faixa de peso:
+{   abaixo do peso, 
+    peso normal, 
+    acima do peso, 
+    obeso, 
+    obesidade morbida} */
+
+    let myname = 'adeilson'
+    document.write(`Hello, my name is ${myname} and whatever`)
+    
