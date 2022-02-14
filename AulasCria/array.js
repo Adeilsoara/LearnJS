@@ -10,6 +10,18 @@ minhasCores.push("preto")
 minhasCores.splice(1, 1)
 document.write(minhasCores)
 
+/* Imprimir itens com forEach */
+
+let nomes = ['Barbara', 'Wilson', 'Carlos', 'Leandro']
+
+/* function imprimirNomes(item) {
+    document.write(item + ' ')
+}
+
+nomes.forEach(imprimirNomes) */
+
+/* Utilizando arrow functions */
+nomes.forEach(item => document.write(item))
 
 /* Verificar números pares com forEach */
 
@@ -21,16 +33,6 @@ function verificaPares(elemento) {
 }
 
 meusNumeros.forEach(verificaPares)
-
-/* Imprimir itens com forEach */
-
-let nomes = ['Barbara', 'Wilson', 'Carlos', 'Leandro']
-
-function imprimirNomes(item) {
-    document.write(item + ' ')
-}
-
-nomes.forEach(imprimirNomes)
 
 /* Somar elementos de um array */
 
