@@ -80,8 +80,8 @@ let gato = {
 
 gato.comidas.favorita
 
-document.addEventListener("click", cliqueAqui)
+/* document.addEventListener("click", cliqueAqui)
 
 function cliqueAqui() {
     alert("Você clicou!")
-}
+} */
