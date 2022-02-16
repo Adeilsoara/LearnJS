@@ -14,11 +14,11 @@ document.write(minhasCores)
 
 let nomes = ['Barbara', 'Wilson', 'Carlos', 'Leandro']
 
-/* function imprimirNomes(item) {
+function imprimirNomes(item) {
     document.write(item + ' ')
 }
 
-nomes.forEach(imprimirNomes) */
+nomes.forEach(imprimirNomes) 
 
 /* Utilizando arrow functions */
 nomes.forEach(item => document.write(item))
@@ -85,3 +85,8 @@ gato.comidas.favorita
 function cliqueAqui() {
     alert("Você clicou!")
 } */
+
+let nome = 'Raimundo'
+let idade = 15
+document.write("Meu nome é  " + nome + 'e sou estudante e tenho ' + idade + ' anos')
+document.write(`Meu nome é ${nome} e sou estudante e tenho ${idade} anos`)
