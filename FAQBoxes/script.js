@@ -1,14 +1,7 @@
-const panels = document.querySelectorAll('.panel')
+const toggles = document.querySelectorAll('.faq-toggle')
 
-panels.forEach(panel => {
-    panel.addEventListener('click', () => {
-        removeActiveClasses()
-        panel.classList.add('active')
+toggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+        toggle.parentNode.classList.toggle('active')
     })
 })
-
-function removeActiveClasses() {
-    panels.forEach(panel => {
-        panel.classList.remove('active')
-    })
-}
