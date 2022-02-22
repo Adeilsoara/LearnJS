@@ -1,0 +1,17 @@
+body{
+    margin-top:20px;
+    background:#FAFAFA;
+}
+
+.container{
+    max-width: 960px;
+    margin-top: 50px;
+}
+
+h3{
+    text-align: center;
+}
+
+#camposEntrada{
+    max-width: 500px;
+}
