@@ -63,6 +63,9 @@ function procucarNomes(item, indice) {
 nomes1.forEach(procucarNomes)
 document.write(nomes2)
 
+
+
+
 /* Objetos */
 
 let gato = {
