@@ -20,3 +20,11 @@ document.write(`${numeroComMap} <br>`)
 
 numeroComFilter = numeros.filter(numero => numero >= 3)
 document.write(`Números filtrados : ${numeroComFilter}`)
+
+/* Preencher um vetor com os valores informados pelo usuário */
+arrayLetras = []
+while (arrayLetras.length <= 5){
+    arrayLetras.push(prompt('Letras: '))
+}
+
+document.write(`${arrayLetras}`)
