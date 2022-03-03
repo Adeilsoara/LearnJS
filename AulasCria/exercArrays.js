@@ -22,9 +22,16 @@ numeroComFilter = numeros.filter(numero => numero >= 3)
 document.write(`Números filtrados : ${numeroComFilter}`)
 
 /* Preencher um vetor com os valores informados pelo usuário */
-arrayLetras = []
+/* arrayLetras = []
 while (arrayLetras.length <= 5){
     arrayLetras.push(prompt('Letras: '))
 }
 
-document.write(`${arrayLetras}`)
+document.write(`${arrayLetras}`) */
+
+/* Converter o array de letras para todas as letras maiusculas */
+
+let letras= ['m', 'a' , 'n', 'o', 'e', 'l']
+
+let letrasMaiusculas = letras.toUpperCase()
+document.write(`Letras MAIÚSCULAS: ${letrasMaiusculas}`)
