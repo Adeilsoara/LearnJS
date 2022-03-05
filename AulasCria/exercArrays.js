@@ -35,3 +35,13 @@ let letras= ['m', 'a' , 'n', 'o', 'e', 'l']
 
 let maiusculas = letras.map(letra => letra.toUpperCase());
 document.write(`Letras MAIÚSCULAS: ${maiusculas}`) 
+
+
+let outrosNumeros = [1, 2, 3, 4, 5]
+let dobro = []
+
+for (let i = 0; i < outrosNumeros.length; i++) {
+    dobro.push (outrosNumeros[i] * 2);
+}
+
+document.write(`Array em Dobro: ${dobro}`)
