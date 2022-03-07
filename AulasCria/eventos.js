@@ -8,7 +8,7 @@ const ol = document.querySelector("ol")
 
 btnAdd.addEventListener("click", adicionar)
 
-function adicionar(event) {
+function adicionar() {
     const inputTexto = document.querySelector(".inputTexto")
     const valorInput = inputTexto.value
 
