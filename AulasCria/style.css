@@ -1,3 +1,7 @@
+
+/* 1 -Alinhar conteúdo dentro da página 
+   2 -Colocar cor de fundo da página
+ */
 body{
     background: #fff;
     display: flex;
@@ -5,6 +9,10 @@ body{
     justify-content: center;
 }
 
+/* 1 - Determinar as dimensões do quadrado
+   2 - Colocar cor de fundo
+   3 - Distância entre os quadrados
+   4 - Centralizar o elemento */
 .quadrado{
     width: 200px;
     height: 200px;
