@@ -16,10 +16,12 @@ body{
 .quadrado{
     width: 200px;
     height: 200px;
+    /* border-radius: 50%; */
     background: #333;
     margin: 20px;
     position: relative;
     flex-direction: column;
     top: 350px;
     transform: translateY(-50%);
+    transition: all 0.5s ease-in;
 }
