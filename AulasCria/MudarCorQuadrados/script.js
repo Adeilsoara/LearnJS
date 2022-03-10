@@ -12,7 +12,9 @@ mudarCor3.addEventListener("mouseover", mudarCorQuadrado3)
 mudarCor3.addEventListener("mouseout", voltarCorQuadrado3)
 
 function mudarCor() {
-    mudarCor1.style.background = "green"
+     mudarCor1.style.background = "green"
+    /*  mudarCor1.style.background = "url('https://source.unsplash.com/random/200x200')";  */
+
 }
 
 function voltarCor() {
