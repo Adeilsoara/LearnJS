@@ -25,3 +25,14 @@ body{
     transform: translateY(-50%);
     transition: all 0.5s ease-in;
 }
+
+.circulo{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
