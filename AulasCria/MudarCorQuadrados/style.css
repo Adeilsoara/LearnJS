@@ -27,7 +27,7 @@ body{
 }
 
 .circulo{
-    background-color: red;
+    background: red;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -35,4 +35,28 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.triangulo{
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #f45b69;
+}
+
+.paralelograma{
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    transform: skew(15deg);
+    background: red;
+}
+
+.diamante{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transform: rotate(45deg);
+    background: #f45b69;
 }
