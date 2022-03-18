@@ -109,4 +109,4 @@ document.write(idade) */
 
  /* let DateTime = luxon.DateTime
  console.log(DateTime.now().diff(DateTime.local('1982, 5, 25'), ['days', 'hours']))
- document.write(DateTime.now().diff(DateTime.local(1982, 5, 25), ['years', 'days'])) 
+ document.write(DateTime.now().diff(DateTime.local(1982, 5, 25), ['years', 'days'])) */
