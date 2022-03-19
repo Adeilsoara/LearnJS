@@ -26,7 +26,7 @@ document.write(gato.meuGato()) */
 
 //Objeto Date
 
-let data = new Date()
+//let data = new Date()
 //document.write(data.getTime())
 //document.write(data)
 //document.write(`<br> A variável  'data' é do tipo: ${typeof(data)}`)
@@ -110,3 +110,20 @@ document.write(idade) */
  /* let DateTime = luxon.DateTime
  console.log(DateTime.now().diff(DateTime.local('1982, 5, 25'), ['days', 'hours']))
  document.write(DateTime.now().diff(DateTime.local(1982, 5, 25), ['years', 'days'])) */
+
+ /* function JSClock() {
+    var tempo = new Date();
+    var hora = tempo.getHours();
+    var minuto = tempo.getMinutes();
+    var segundo = tempo.getSeconds();
+    var temp = "" + ((hora > 12) ? hora - 12 : hora);
+    if (hora == 0)
+      temp = "12";
+    temp += ((minuto < 10) ? ":0" : ":") + minuto;
+    temp += ((segundo < 10) ? ":0" : ":") + segundo;
+    temp += (hora >= 12) ? " P.M." : " A.M.";
+    return temp;
+  }
+document.write(JSClock())  */ 
+
+
