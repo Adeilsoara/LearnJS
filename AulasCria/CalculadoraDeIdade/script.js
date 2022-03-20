@@ -28,5 +28,7 @@ function calcularIdade() {
     let mes = mes2 - mes1
     let ano = ano2 - ano1
 
+    //Aqui é feito a inserção do resultado do cálculo da idade, através do método innerHTML que insere a mensagem na
+    // página, também utilizamos os literals para modelagem da impressão da mensagem
     document.getElementById('idade').innerHTML = `Você tem ${ano} anos e ${mes} meses e ${dia} dias`
 }
