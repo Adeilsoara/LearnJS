@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora de Idade</title>
 </head>
 <body>
-    <div>
-        Dia: <input type="text" id="dia"/>
+    <div class="container">
+        <div class="camposInput">
+            <div>
+                Dia: <input type="text" id="dia" class="entrada"/>
+            </div>
+            <div>
+                Mês: <input type="text" id="mes" class="entrada"/>
+            </div>
+            <div>
+                Ano: <input type="text" id="ano" class="entrada"/>
+            </div>
+        </div>
+        <div>
+            <button type="submit" onclick="calcularIdade()"> Calcular Idade</button>
+        </div>
+    
+        <div id="idade"></div>
     </div>
-    <div>
-        Mês: <input type="text" id="mes"/>
-    </div>
-    <div>
-        Ano: <input type="text" id="ano"/>
-    </div>
-    <div>
-        <button type="submit" onclick="calcularIdade()"> Calcular Idade</button>
-    </div>
-
-    <div id="idade"></div>
    <script src="script.js"></script>
 </body>
 </html>

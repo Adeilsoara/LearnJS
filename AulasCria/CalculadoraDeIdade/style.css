@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width:520px;
+    height: auto;
+    min-height:100px;
+    margin: 100px auto;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.entrada{
+    width: 100px;
+    margin-right:100px auto;
+}
