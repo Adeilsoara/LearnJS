@@ -11,8 +11,8 @@ function pegarIdade(dataNascimento) {
   return diferenca
 }
 
-const campoDataNascimento = document.querySelector('#dataNascimento')
-const campoIdade = document.querySelector('#idade')
+const campoDataNascimento = document.getElementById('dataNascimento')
+const campoIdade = document.getElementById('idade')
 
 campoDataNascimento.addEventListener('change', (e) => {
   const data = new Date(e.target.value)
