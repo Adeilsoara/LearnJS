@@ -19,12 +19,12 @@
     <form action="">
       <div class="row">
 
-        <div class="col-sm-5">
+        <div class="col-5">
           <label>Nome:</label>
           <input type="text" class="form-control" placeholder="Nome">
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-3">
           <label>Data de Nascimento:</label>
           <div class="input-group">
             <span class="input-group-text">
@@ -34,17 +34,13 @@
           </div>
         </div>
 
-      </div>
-
-      <div class="row">
-
-        <div class="col-sm-2">
+        <div class="col-2">
           <label>Idade:</label>
           <input type="number" class="form-control" id="idade" placeholder="Idade" readonly>
         </div>
 
-        <div class="col-sm-1">
-          <label>Sexo:</label>
+        <div class="col-2">
+          <label>Gênero:</label>
           <select type="text" class="form-control" placeholder="Gênero">
             <option selected>...</option>
             <option>F</option>
@@ -52,7 +48,50 @@
             <option>N</option>
           </select>
         </div>
+      </div>
 
+      <div class="row">
+        <div class="col-5">
+          <label>Nome da mãe:</label>
+          <input type="text" class="form-control" placeholder="Mãe">
+        </div>
+
+        <div class="col-3">
+          <label>Data de Nascimento:</label>
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="bi bi-calendar2-heart-fill"></i>
+            </span>
+            <input type="date" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-2">
+          <label>Idade:</label>
+          <input type="number" class="form-control"  placeholder="Idade" readonly>
+        </div>
+
+        <div class="col-2">
+          <label>Tel:</label>
+          <input type="tel" class="form-control"  placeholder="(00) 00000-0000">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-5">
+          <label>Endereço:</label>
+          <input type="text" class="form-control" placeholder="Endereço">
+        </div>
+
+        <div class="col-2">
+          <label>Nº:</label>
+          <input type="text" class="form-control" placeholder="Nº">
+        </div>
+
+        <div class="col-3">
+          <label>Bairro:</label>
+          <input type="text" class="form-control">
+        </div>
       </div>
       <br>
       <button type="submit" class="btn btn-primary" name="enviar">Salvar</button>
