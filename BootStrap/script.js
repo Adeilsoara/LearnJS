@@ -19,3 +19,9 @@ campoDataNascimento.addEventListener('change', (e) => {
 
   campoIdade.value = pegarIdade(data)
 })
+
+function mascaraTel(mascaraInput) {
+  const tamanhoInput = document.getElementById(`${mascaraInput}Input`).maxLength
+  let valorInput = document.getElementById(`${mascaraInput}Input`).value
+  console.log('tamanho máximo:', tamanhoInput, 'valor input:', valorInput)
+}
