@@ -26,7 +26,7 @@ function mascaraTel(mascaraInput) {
   //console.log('tamanho máximo:', tamanhoInput, 'valor input:', valorInput)
   //let valorSemPonto = document.getElementById('telefoneInput').value.replace(/([^0-9]+)/g, "")
   const mascara = {
-    telefone: valorInput.replace(/[^\d]/g,"").replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3")
+    telefone: valorInput.replace(/[^\d]/g,"").replace(/^(\d{2})(\d{5})(\d{4}).*/, "($1) $2-$3")
   };
 
   if (valorInput.length === tamanhoInput) {
