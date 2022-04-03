@@ -21,7 +21,17 @@ campoDataNascimento.addEventListener('change', (e) => {
 })
 
 function mascaraTel(mascaraInput) {
-  const tamanhoInput = document.getElementById(`${mascaraInput}Input`).maxLength
-  let valorInput = document.getElementById(`${mascaraInput}Input`).value
-  console.log('tamanho máximo:', tamanhoInput, 'valor input:', valorInput)
+  const tamanhoInput = document.getElementById('telefoneInput').maxLength
+  let valorInput = document.getElementById('telefoneInput').value
+  //console.log('tamanho máximo:', tamanhoInput, 'valor input:', valorInput)
+  //let valorSemPonto = document.getElementById('telefoneInput').value.replace(/([^0-9]+)/g, "")
+  const mascara = {
+    telefone: valorInput.replace(/[^\d]/g,"").replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3")
+  };
+
+  if (valorInput.length === tamanhoInput) {
+    document.getElementById('telefoneInput').value = mascara[mascaraInput]
+  } /* else{
+    document.getElementById('telefoneInput').value = valorSemPonto
+  } */
 }
