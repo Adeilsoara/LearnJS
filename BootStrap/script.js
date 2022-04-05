@@ -35,3 +35,30 @@ function mascaraTel(mascaraInput) {
     document.getElementById('telefoneInput').value = valorSemPonto
   } */
 }
+
+function mascaraCpf(mascaraInput) {
+  const tamanhoInput = document.getElementById('cpfInput').maxLength
+  let valorInput = document.getElementById('cpfInput').value
+  console.log('tamanho máximo:', tamanhoInput, 'valor input:', valorInput)
+  //let valorSemPonto = document.getElementById('telefoneInput').value.replace(/([^0-9]+)/g, "")
+  const mascara = {
+    cpf: valorInput.replace(/[^\d]/g,"").replace(/^(\d{3})(\d{3})(\d{3})(\d{2}).*/, "$1.$2.$3-$4")
+  };
+
+  if (valorInput.length === tamanhoInput) {
+    document.getElementById('cpfInput').value = mascara[mascaraInput]
+  } 
+}
+
+function mascaraCep(mascaraInput) {
+  const tamanhoInput = document.getElementById('cepInput').maxLength
+  let valorInput = document.getElementById('cepInput').value
+
+  const mascara = {
+    cep : valorInput.replace(/[^\d]/g, "").replace(/^(\d{5})(\d{3}).*/, "$1-$2")
+  }
+
+  if (valorInput.length === tamanhoInput) {
+    document.getElementById('cepInput').value = mascara[mascaraInput]
+  }
+}

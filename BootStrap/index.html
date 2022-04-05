@@ -75,7 +75,12 @@
           <label>Tel:</label>
           <input type="tel" class="form-control"  placeholder="(00)00000-0000" maxlength="11" id="telefoneInput" oninput="mascaraTel('telefone')">
         </div>
-      </div>
+
+        <div class="col-3">
+          <label>CPF:</label>
+          <input type="text" class="form-control"  placeholder="000.000.000-00" maxlength="11" id="cpfInput" oninput="mascaraCpf('cpf')">
+        </div>
+      </div>  
 
       <div class="row">
         <div class="col-5">
@@ -88,9 +93,14 @@
           <input type="text" class="form-control" placeholder="Nº">
         </div>
 
-        <div class="col-3">
+        <div class="col-2">
           <label>Bairro:</label>
           <input type="text" class="form-control">
+        </div>
+
+        <div class="col-2">
+          <label>CEP:</label>
+          <input type="text" class="form-control" placeholder="00000-000" maxlength="8" id="cepInput" oninput="mascaraCep('cep')">
         </div>
       </div>
       <br>
