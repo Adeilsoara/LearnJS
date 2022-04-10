@@ -62,3 +62,24 @@ function mascaraCep(mascaraInput) {
     document.getElementById('cepInput').value = mascara[mascaraInput]
   }
 }
+
+/* Mensagens de Alertas */
+
+var mensagemDeAlerta = document.getElementById('mensagemDeAlerta')
+var gatilhoDaMensagem = document.getElementById('botaoAlerta')
+
+function alert(message, type) {
+  var criarMensagem = document.createElement('div')
+  criarMensagem.innerHTML = '<div class="alert alert-' + type + 
+  ' alert-dismissible" role="alert">' + message + 
+  '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+  mensagemDeAlerta.append(criarMensagem)
+}
+
+if (gatilhoDaMensagem) {
+  gatilhoDaMensagem.addEventListener('click', function () {
+    alert('Seu formulário foi salvo com Sucesso!', 'success')
+  })
+}
+

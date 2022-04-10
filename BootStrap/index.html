@@ -17,11 +17,14 @@
   <div class="container">
     <h2>Formulário com BootStrap</h2>
     <form action="">
+      
+      <!-- Mensagem de Aletar ao enviar no formulário bootstrap -->
+      <div  id="mensagemDeAlerta"></div>
+      
       <div class="row">
-
         <div class="col-5">
           <label>Nome:</label>
-          <input type="text" class="form-control" placeholder="Nome">
+          <input type="text" class="form-control" placeholder="Nome"  id="nomeInput" required>
         </div>
 
         <div class="col-3">
@@ -109,7 +112,7 @@
         </div>
       </div>
       <br>
-      <button type="submit" class="btn btn-primary" name="enviar">Salvar</button>
+      <button type="submit" class="btn btn-primary" name="enviar" id="botaoAlerta">Salvar</button>
     </form>
   </div>
 
