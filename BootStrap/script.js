@@ -83,3 +83,6 @@ if (gatilhoDaMensagem) {
   })
 }
 
+
+/* Modal Bootstrap */
+
