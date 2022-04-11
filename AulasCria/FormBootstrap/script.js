@@ -20,6 +20,7 @@ campoDataDeNascimento.addEventListener('change', (e) => {
     campoIdade.value = capturarIdade(data)
 })
 
+/* Mascáras para CEP */
 function mascaraCep(mascaraInput) {
     const tamanhoInput = document.getElementById('cepInput').maxLength
     let valorInput = document.getElementById('cepInput').value
@@ -31,4 +32,22 @@ function mascaraCep(mascaraInput) {
     if(valorInput.length == tamanhoInput){
         document.getElementById('cepInput').value = mascara[mascaraInput]
     }
+}
+
+/* Mensagens de Alerta */
+
+var mensagemDeAlerta = document.getElementById('mensagem')
+var gatilhoDeMensagem = document.getElementById('btnSalvar')
+
+function alert(message, type) {
+  var wrapper = document.createElement('div')
+  wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+  mensagemDeAlerta.append(wrapper)
+}
+
+if (gatilhoDeMensagem) {
+  gatilhoDeMensagem.addEventListener('click', function () {
+    alert('Informações enviadas com sucesso!', 'success')
+  })
 }
