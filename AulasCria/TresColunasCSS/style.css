@@ -14,8 +14,8 @@ body{
 }
 
 .quadrado{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 2px solid red;
     margin: 20px;
 }
