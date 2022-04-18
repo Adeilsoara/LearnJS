@@ -35,7 +35,7 @@ body{
     transform: scale(0.98);
 }
 
-#toasts {
+#notificacoes {
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -44,7 +44,7 @@ body{
     align-items: flex-end;
 }
 
-.toast {
+.notificacao {
     background-color: #fff;
     color: rebeccapurple;
     border-radius: 5px;
