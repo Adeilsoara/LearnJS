@@ -18,7 +18,7 @@ function criarNotificacao(){
     notificacao.appendChild(noti)
 
     setTimeout(() => {
-        notificacao.remove()
+        noti.remove()
     },3000)
 }
 
