@@ -25,7 +25,7 @@ h2 {
 .container-resultado {
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     position: relative;
     font-size: 18px;
