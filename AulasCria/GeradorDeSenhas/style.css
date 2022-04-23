@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    
 }
 
 body{
@@ -9,6 +10,7 @@ body{
     justify-content: center;
     height: 100vh;
     padding: 10px;
+    /* border: 2px solid red; */
 }
 
 h2 { 
@@ -18,7 +20,7 @@ h2 {
     background-color: rgb(203, 231, 232);
     padding: 10px;
     width: 350px;
-    height: 350px;
+   /*  height: 350px; */
     max-width: 100%;
 }
 
@@ -42,10 +44,12 @@ h2 {
     font-size: 16px;
     padding: 8px 12px;
     cursor: pointer;
-    margin-top: 180px;
+   /*  margin-top: 180px; */
+    margin-top: 10px;
 }
   
 .btn-completo {
     display: block;
     width: 100%;
 }
+
