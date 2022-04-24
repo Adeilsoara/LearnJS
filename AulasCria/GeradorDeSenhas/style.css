@@ -53,3 +53,10 @@ h2 {
     width: 100%;
 }
 
+input {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    height: 50px;
+    width: 100%;
+}
