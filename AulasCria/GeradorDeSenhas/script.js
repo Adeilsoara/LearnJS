@@ -5,6 +5,8 @@ function gerarSenha() {
     Math.random().toString(36).toUpperCase().slice(2)
 }
 
+document.addEventListener('click', gerarSenha)
+
 function copiarSenha() {
     let copyText = document.querySelector('#resultado');
     copyText.select();
@@ -12,3 +14,4 @@ function copiarSenha() {
 }
 
 document.querySelector('#copiar').addEventListener("click", copiarSenha)
+
