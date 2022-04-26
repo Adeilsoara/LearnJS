@@ -7,11 +7,11 @@ function gerarSenha() {
 
 document.addEventListener('click', gerarSenha)
 
-function copiarSenha() {
+/* function copiarSenha() {
     let copyText = document.querySelector('#resultado');
     copyText.select();
     document.execCommand("copy");
 }
 
-document.querySelector('#copiar').addEventListener("click", copiarSenha)
+document.querySelector('#copiar').addEventListener("click", copiarSenha) */
 
