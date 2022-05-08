@@ -43,4 +43,3 @@ function ChangeLang(a) {
     },
     'google_translate_element');
    }
-   
