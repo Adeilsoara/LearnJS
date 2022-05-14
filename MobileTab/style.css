@@ -68,6 +68,7 @@ nav ul li p {
     margin: 2px 0;
 }
 
-nav ul li:hover, nav ul.active{
+nav ul li:hover, 
+nav ul.active{
     color: #8e44ad;
 }
