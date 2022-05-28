@@ -1,6 +1,10 @@
-$(document).ready(function(){
-    $("button").click(function(){
-        $("p").hide();
-    })
-})
+$(document).ready(function () {
+  $("button").click(function () {
+    $("#primeiroP").hide();
+  });
+  $("#botao2").click(function () {
+    $("p").hide();
+  });
+});
+
 
