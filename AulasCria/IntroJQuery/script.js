@@ -18,11 +18,11 @@
 
 /* Esconder e mostrar elemento com a mesma função, toggle */
 
-/* $(document).ready(function(){
+$(document).ready(function(){
   $(".ambos").click(function(){
-    $(".quadrado").toggle(1000);
+    $(".quadrado").toggle();
   });
-}); */
+});
 
 /* Alterar a cor de um campo input quando for selecionado */
 
