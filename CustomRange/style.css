@@ -28,6 +28,10 @@ input[type='range']{
     -webkit-appearance: none;
 }
 
+input[type='range']:focus{
+    outline: none;
+}
+
 input[type='range'] + label{
     background: #fff;
     position: absolute;
@@ -38,4 +42,44 @@ input[type='range'] + label{
     text-align: center;
     border-radius: 4px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Chrome and safari */
+
+input[type='range']::-webkit-slider-runnable-track{
+    background: purple;
+    border-radius: 4px;
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid purple;
+    margin-top: -7px;
+}
+
+/* Firefox */
+input[type='range']::-moz-range-track{
+    background: purple;
+    border-radius: 4px;
+    width: 100%;
+    height: 18px;
+    cursor: pointer;
+}
+
+input[type='range']::-moz-range-thumb{
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid purple;
+    margin-top: -7px;
+    cursor: pointer;
 }
