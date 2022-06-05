@@ -3,6 +3,7 @@
 }
 
 body{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,4 +26,16 @@ input[type='range']{
     width: 300px;
     margin: 18px 0;
     -webkit-appearance: none;
+}
+
+input[type='range'] + label{
+    background: #fff;
+    position: absolute;
+    top: -25px;
+    left: 110px;
+    width: 80px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
