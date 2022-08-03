@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Clock color primarys */
 :root{
     --primary-color: #000;
     --secondary-color: #fff;
