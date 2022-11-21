@@ -10,13 +10,18 @@
 <body>
     <form action="" method="get">
         <label>CEP:
-            <input type="text" name="cep" id="cep" size="10" maxlength="9" onblur="buscaCep(this.value)">
+            <input type="text" name="cep" id="cep" size="10" maxlength="9">
         </label>
         
         <label for="">Rua:
-            <input type="text" name="rua" id="rua">
+            <input type="text" name="logradouro" id="logradouro">
+        </label>
+
+        <label for="">Localidade:
+            <input type="text" name="localidade" id="localidade">
         </label>
     </form>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
