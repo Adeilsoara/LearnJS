@@ -25,6 +25,32 @@ NA DIVISÃO GARANTA QUE O ARRENDAMENTO SEJA COM NO MÁXIMO DUAS CASAS DECIMAIS.
 O SCRIPT DEVE SOLICITAR QUE O USUÁRIO INFORME OS VALORES.
 */
 
+/* OPERAÇÕES MATEMÁTICAS */
+/* 
+let numero1 = Number(prompt('Digite o 1ª número '))
+let numero2 = Number(prompt('Digite o 2ª número '))
+
+function somar() {
+    return document.write('A soma é: ', numero1 + numero2 + '<br>')
+}
+
+function subtrair() {
+    return document.write('A subtração: ',numero1 - numero2 + '<br>')
+}
+
+function mult() {
+    return document.write('A multiplicação: ',numero1 * numero2 + '<br>')
+}
+
+function dividir() {
+    return document.write('A divisão é: ', (numero1/numero2).toFixed(2))
+}
+
+somar()
+subtrair()
+mult()
+dividir() */
+
 
 /*  Faça um script para saber a idade de uma pessoa, através do ano atual e ano de
 nascimento, na pagina em HTML deve ser mostrado o nome de uma pessoa e sua
@@ -51,32 +77,6 @@ let calcularMedia = () =>{
 }
 document.write('A média do aluno é: ', calcularMedia()) */
 
-
-/* OPERAÇÕES MATEMÁTICAS */
-/* 
-let numero1 = Number(prompt('Digite o 1ª número '))
-let numero2 = Number(prompt('Digite o 2ª número '))
-
-function somar() {
-    return document.write('A soma é: ', numero1 + numero2 + '<br>')
-}
-
-function subtrair() {
-    return document.write('A subtração: ',numero1 - numero2 + '<br>')
-}
-
-function mult() {
-    return document.write('A multiplicação: ',numero1 * numero2 + '<br>')
-}
-
-function dividir() {
-    return document.write('A divisão é: ', (numero1/numero2).toFixed(2))
-}
-
-somar()
-subtrair()
-mult()
-dividir() */
 
 /* Estruturas Condicionais IF/ELSE  */
 
