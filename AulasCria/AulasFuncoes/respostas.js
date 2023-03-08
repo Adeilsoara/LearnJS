@@ -1,4 +1,16 @@
- /*Criar uma função que converta uma temperatura de Celsius para Fahrenheit os dados de 
+
+/* Escreva uma função que retorne o cubo de um número fornecido pelo usuário. */
+
+let num = Number(prompt("Informe um número: "))
+function cubo() {
+    return Math.pow(num,3)
+}
+
+document.write(`${num}³ é: `, cubo()) 
+
+
+
+/*Criar uma função que converta uma temperatura de Celsius para Fahrenheit os dados de 
  temperatura devem ser informados pelo usuário. Obs.: F = C x 1.8 + 32*/
 
 var celsius = parseFloat(prompt("Informa a temperatura em Celsius: "))
