@@ -25,14 +25,17 @@ function calcularPorcentagem(num, porcentagem) {
 document.write(`${porcentagem}% de ${num} é: `, calcularPorcentagem(num, porcentagem))
 
 
-/*Criar uma função que converta uma temperatura de Celsius para Fahrenheit os dados de 
- temperatura devem ser informados pelo usuário. Obs.: F = C x 1.8 + 32*/
+/* Criar uma função que converta uma temperatura de Fahrenheit para Celsius
+os dados de temperatura devem ser informados pelo usuário
+Obs.: Para converter graus Fahrenheit em graus Celsius, subtraia 32 e divida por 1,8.
 
-var celsius = parseFloat(prompt("Informa a temperatura em Celsius: "))
-function celsiusFahrenheit() {
-    return celsius * 1.8 + 32
+°C = (°F − 32) ÷ 1.8*/
+
+var fahrenheit = parseFloat(prompt("Informe a temperatura em Farenheits: "))
+function fahrenheitCelsius(fahrenheit) {
+    return (fahrenheit-32)/1.8
 }
 
-document.write(`${celsius}º em Fahrenheit é: `, celsiusFahrenheit()) 
+document.write(`${fahrenheit} em Celsius é: `, fahrenheitCelsius(fahrenheit).toFixed(2))
 
 
