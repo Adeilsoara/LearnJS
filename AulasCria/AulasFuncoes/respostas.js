@@ -39,3 +39,76 @@ function fahrenheitCelsius(fahrenheit) {
 document.write(`${fahrenheit} em Celsius é: `, fahrenheitCelsius(fahrenheit).toFixed(2))
 
 
+/********** Lista Turma 02 **********/
+
+/* Criar uma função que converta uma temperatura de Celsius para Fahrenheit 
+os dados de temperatura devem ser informados pelo usuário.
+Obs.: F = C x 1.8 + 32*/
+
+var celsius = parseFloat(prompt("Informa a temperatura em Celsius: "))
+function celsiusFahrenheit() {
+    return celsius * 1.8 + 32
+}
+
+document.write(`${celsius}º em Fahrenheit é: `, celsiusFahrenheit()) 
+
+
+/* Escreva uma função que verifica se um número fornecido pelo usuário em um prompt é primo ou não. */ 
+function numeroPrimo(n) {
+    if (n === 1) {
+        return "Número 1 não é primo."
+    }else if(n < 1){
+        return "Números negativos não são primos"
+    }
+    else{
+        for(var i = 2; i < n; i++){
+            if (n % i == 0) {
+                primo = false
+                break
+            }
+        }
+    }
+
+    if (primo) {
+        return `${n} é um número primo`
+    }else{
+        return `${n} não é um número primo`
+    }
+
+}
+
+var numero = Number(prompt("Informa um número: "))
+let primo = true
+document.write(numeroPrimo(numero))
+
+/* Faça um programa que recebe três números do usuário, e identifica o maior através 
+de uma função e o menor número através de outra função. */
+
+function maiorEMenorNumero() {
+  var num1 = parseInt(prompt("Digite o 1º número: "));
+  var num2 = parseInt(prompt("Digite o 2ª número: "));
+  var num3 = parseInt(prompt("Digite o 3ª número: "));
+
+  var maior = num1;
+  if (num2 > maior) {
+    maior = num2
+  }
+  if(num3 > maior){
+    maior = num3
+  }
+
+  var menor = num1
+  if (num2 < menor) {
+    menor = num2
+  }
+  if (num3 < menor) {
+    menor = num3
+  }
+
+  document.write(`Maior é: ${maior} <br>`)
+  document.write(`Menor é: ${menor}`)
+}
+
+maiorEMenorNumero()
+
+
