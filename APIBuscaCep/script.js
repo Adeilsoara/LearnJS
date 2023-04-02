@@ -20,8 +20,8 @@ function buscaCep(valor) {
             alert("Formato inválido")
         }
     }
-} */
-
+}
+ */
 
 $("#cep").blur(function (e){
     let cep = this.value
@@ -34,7 +34,6 @@ $("#cep").blur(function (e){
     
     const mostrarDados = (result) =>{
         for(const campo in result){
-            /* console.log(campo) */
             if (document.querySelector("#"+campo)) {
                 document.querySelector("#"+campo).value = result[campo]
             }
